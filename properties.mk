@@ -16,10 +16,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.imx376_sunny.light.lux=275 \
     persist.vendor.imx376_sunny.low.lux=290
 
-# Display
-PRODUCT_PROPERTY_OVERRIDES += \
-   ro.sf.lcd_density=440
-
 # Dual SIM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds

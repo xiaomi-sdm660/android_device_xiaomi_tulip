@@ -40,6 +40,9 @@ TARGET_SCREEN_WIDTH := 1080
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
+#Density
+TARGET_SCREEN_DENSITY := 400
+
 #Encryption
 TARGET_ENABLE_ENCRYPTION := true
 
