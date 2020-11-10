@@ -27,7 +27,7 @@ $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 DEVICE_PATH := device/xiaomi/tulip
 
 # Inherit properties.mk
-$(call inherit-product, $(DEVICE_PATH)/properties.mk)
+$(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
